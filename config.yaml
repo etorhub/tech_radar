@@ -1,0 +1,23 @@
+version: '0.1.0'
+weights:
+  technology: 0.40
+  legal: 0.15
+  citation: 0.10
+  freshness: 0.10
+  pct: 0.05
+thresholds:
+  freshness_months: 36
+  a_cut: 66
+  b_cut: 33
+eligibility:
+  exclude_company_coprop: true
+  require_alive: true
+  exclude_litigation: true
+  allow_override: true
+paths:
+  whitelist: 'data/lists/whitelist.csv'
+  blacklist: 'data/lists/blacklist.csv'
+  cpc_map: 'data/lists/cpc_to_mission.csv'
+  dasboard_path: 'dashboard/'
+missions:
+  pct_required_missions: ['M2', 'M3']

@@ -1,0 +1,6 @@
+prefix,tech_domain,mission_code,confidence,notes
+C12N,Biotech – Ingeniería genética,M4,95,Genética/biotecnología (general)
+C12N15,Biotech – Terapias génicas,M4,98,Terapia génica (específico)
+H04W,Telecom – Redes móviles,M2,92,Gestión/seguridad redes
+G06F16,Digital – Gestión de datos,M3,90,Indexación/consulta de datos
+A61K,Salud – Formulaciones,M1,90,Fármacos/composiciones
